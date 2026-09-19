@@ -1,0 +1,44 @@
+== toolchain ==
+Lean (version 4.34.0, x86_64-w64-windows-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)
+Lake version 5.0.0-src+293d5d0 (Lean version 4.34.0)
+== pinned dependencies ==
+mathlib rev (lake-manifest.json): 5ed2965256430c3649e86755f9576b54eca72435
+note: .lake/packages was already populated at the pinned revisions; 'lake exe cache get' was not re-run because the mathlib build artifacts are already present locally.
+== clean build ==
+✔ [8924/8929] Built JSP584.Core (197s)
+✔ [8925/8929] Built JSP584.Multigraph (27s)
+✔ [8926/8929] Built JSP584.Simple (28s)
+ℹ [8927/8929] Built JSP584.Audit (23s)
+info: JSP584/Audit.lean:51:0: 'JSP584.sq_eq_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP584/Audit.lean:52:0: 'JSP584.exists_nonempty_inter_card_mod_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP584/Audit.lean:55:0: 'JSP584.exists_three_regular_multigraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP584/Audit.lean:56:0: 'JSP584.sum_mdeg_eq_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP584/Audit.lean:57:0: 'JSP584.exists_three_regular_multigraph_type45' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP584/Audit.lean:58:0: 'JSP584.exists_three_regular_of_four_regular_multigraph_add_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: JSP584/Audit.lean:61:0: 'JSP584.exists_three_regular_edge_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP584/Audit.lean:62:0: 'JSP584.exists_three_regular_of_four_regular_add_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP584/Audit.lean:63:0: 'JSP584.exists_three_regular_of_four_regular_add_edge'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP584/Audit.lean:64:0: 'JSP584.exists_incidence_card_eq_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP584/Audit.lean:67:0: 'JSP584Audit.witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8928/8929] Built JSP584 (21s)
+Build completed successfully (8929 jobs).
+build exit=0
+== source hygiene: no sorry / native_decide / custom axioms ==
+OK: source is clean
+== axiom audit ==
+'JSP584.sq_eq_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP584.exists_nonempty_inter_card_mod_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP584.exists_three_regular_multigraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP584.sum_mdeg_eq_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP584.exists_three_regular_multigraph_type45' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP584.exists_three_regular_of_four_regular_multigraph_add_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'JSP584.exists_three_regular_edge_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP584.exists_three_regular_of_four_regular_add_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP584.exists_three_regular_of_four_regular_add_edge'' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP584.exists_incidence_card_eq_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP584Audit.witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+audit exit=0
