@@ -1,0 +1,14 @@
+JSP584/Audit.lean:51:0: 'JSP584.sq_eq_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP584/Audit.lean:52:0: 'JSP584.exists_nonempty_inter_card_mod_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP584/Audit.lean:55:0: 'JSP584.exists_three_regular_multigraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP584/Audit.lean:56:0: 'JSP584.sum_mdeg_eq_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP584/Audit.lean:57:0: 'JSP584.exists_three_regular_multigraph_type45' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP584/Audit.lean:58:0: 'JSP584.exists_three_regular_of_four_regular_multigraph_add_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+JSP584/Audit.lean:61:0: 'JSP584.exists_three_regular_edge_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP584/Audit.lean:62:0: 'JSP584.exists_three_regular_of_four_regular_add_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP584/Audit.lean:63:0: 'JSP584.exists_three_regular_of_four_regular_add_edge'' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP584/Audit.lean:64:0: 'JSP584.exists_incidence_card_eq_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP584/Audit.lean:67:0: 'JSP584Audit.witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8929 jobs).

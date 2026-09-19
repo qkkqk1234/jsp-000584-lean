@@ -1,0 +1,15 @@
+name = "jsp584"
+version = "0.1.0"
+defaultTargets = ["JSP584"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.34.0"
+
+[[lean_lib]]
+name = "JSP584"
