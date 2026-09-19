@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "project": {
+    "root": "<absolute path to a clean checkout of this repository>",
+    "repository": "https://github.com/qkkqk1234/jsp-000584-lean",
+    "commit": "e8761811f1f9b3c16ed06ffe6709e875766093f6",
+    "toolchain": "leanprover/lean4:v4.34.0"
+  },
+  "problems": [
+    {
+      "id": "erdos-715",
+      "source": "https://www.erdosproblems.com/715",
+      "requirements": [
+        {
+          "id": "main",
+          "description": "Every loopless 4-regular multigraph plus one edge between two distinct vertices contains a 3-regular subgraph (Alon-Friedland-Kalai 1984).",
+          "targets": [
+            "main",
+            "bridge"
+          ],
+          "coverage": "full",
+          "evidence": "Statement correspondence argued in STATEMENT.md at the pinned commit; the multigraph model and the edge-set encoding of '3-regular subgraph' are justified against JCTB 37 (1984) 79-91, pp. 79-80."
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "main",
+      "problem": "erdos-715",
+      "role": "theorem",
+      "module": "JSP584.Multigraph",
+      "source": "JSP584/Multigraph.lean",
+      "declaration": "JSP584.exists_three_regular_of_four_regular_multigraph_add_edge"
+    },
+    {
+      "id": "bridge",
+      "problem": "erdos-715",
+      "role": "bridge",
+      "module": "JSP584.Audit",
+      "source": "JSP584/Audit.lean",
+      "declaration": "JSP584Audit.witness"
+    }
+  ]
+}
